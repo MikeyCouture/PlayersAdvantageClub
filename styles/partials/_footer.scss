@@ -1,0 +1,25 @@
+// FOOTER SECTION
+
+.footer__section{
+    background-color: $darkGrey;
+}
+
+.footer__section--content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    .footer__contentOne{
+        p{
+            margin: 0;
+            @include fontSize(8);
+            color: white;
+        }
+    }
+
+}
+
+.footer__content--logo{
+    width: 70px;
+}

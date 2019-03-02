@@ -20,15 +20,16 @@ $mainFont: 'Lato', sans-serif;
     font-size: $sizeValue * 1px;
     font-size: ($sizeValue/10) * 1rem;
     font-family: $mainFont;
+    color: $mainBlue;
     // text-transform: uppercase;
     // letter-spacing: 1px;
     // line-height: 1.1;
 }
 
-// html {
-//   scroll-behavior: smooth;
-//   overflow-x: hidden;
-// }
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
 
 body{
     width: 100%;
