@@ -1,0 +1,17 @@
+// HEADER SECTION
+
+.header__section--image{
+    background-image: linear-gradient(to bottom, #fff0, #fff), url("../assets/nf_falls_4.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: auto;
+    width: 100%;
+    height: 50vh;
+    text-align: center;
+}
+
+.header__section--logo{
+    width: 400px;
+    margin: 0 auto;
+}
