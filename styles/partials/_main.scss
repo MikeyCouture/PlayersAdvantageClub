@@ -1,0 +1,70 @@
+// MAIN SECTION
+
+
+// TOP SECTION
+.main__section--top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.main__top--content, .main__top--form{
+    width: 45%;
+    background-color: $lightGrey;
+}
+
+.main__top--content{
+    padding: 10px;
+    text-align: center;
+    p{
+        @include fontSize(12);
+    }
+}
+
+.main__image{
+    width: 100%;
+    height: auto;
+}
+
+.PACForm{
+    display: flex;
+    flex-direction: column;
+    button{
+        background-color: orange;
+        border: none;
+        border-radius: 15px;
+        width: 50%;
+        margin: 0 auto;
+        font-size: 20px;
+    }
+
+    input{
+        line-height: normal;
+        border: 1px solid gray;
+        padding: 5px;
+        margin: 10px;
+    }
+}
+
+// BOTTOM SECTION
+.main__section--bottom{
+    background-color: $lightGrey;
+}
+
+
+// MEDIA BREAK POINTS
+
+@media only screen and (max-width: 480px){
+    .main__section--top{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .main__top--content, .main__top--form{
+        width: 95%;
+    }
+
+}

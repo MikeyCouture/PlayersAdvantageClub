@@ -154,5 +154,74 @@ body {
   text-align: center; }
 
 .header__section--logo {
-  width: 400px;
+  width: 50%;
   margin: 0 auto; }
+
+.main__section--top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 100%; }
+
+.main__top--content, .main__top--form {
+  width: 45%;
+  background-color: #ede8e1; }
+
+.main__top--content {
+  padding: 10px;
+  text-align: center; }
+  .main__top--content p {
+    font-size: 12px;
+    font-size: 1.2rem;
+    font-family: "Lato", sans-serif; }
+
+.main__image {
+  width: 100%;
+  height: auto; }
+
+.PACForm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+  .PACForm button {
+    background-color: orange;
+    border: none;
+    border-radius: 15px;
+    width: 50%;
+    margin: 0 auto;
+    font-size: 20px; }
+  .PACForm input {
+    line-height: normal;
+    border: 1px solid gray;
+    padding: 5px;
+    margin: 10px; }
+
+.main__section--bottom {
+  background-color: #ede8e1; }
+
+@media only screen and (max-width: 480px) {
+  .main__section--top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%; }
+  .main__top--content, .main__top--form {
+    width: 95%; } }
