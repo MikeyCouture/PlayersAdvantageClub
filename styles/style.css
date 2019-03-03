@@ -277,6 +277,9 @@ body {
     font-size: 1.2rem;
     font-family: "Lato", sans-serif;
     color: #1e559b; }
+    .main__section--boxOffice p a {
+      text-decoration: none;
+      color: #1e559b; }
 
 .diagonal {
   border-width: 0 0 90px 100vw;
@@ -322,6 +325,11 @@ body {
 
 .footer__section {
   background-color: #454545; }
+  .footer__section h3 {
+    margin: 0;
+    text-align: center;
+    padding-top: 20px;
+    color: #f9f2ea; }
 
 .footer__section--content {
   display: -webkit-box;
@@ -343,7 +351,30 @@ body {
     font-size: 0.8rem;
     font-family: "Lato", sans-serif;
     color: #1e559b;
-    color: white; }
+    color: #f9f2ea; }
 
 .footer__content--logo {
   width: 70px; }
+
+.footer__section--socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+  .footer__section--socials .footer__links {
+    cursor: pointer; }
+  .footer__section--socials .fab {
+    font-size: 20px;
+    margin: 10px;
+    color: #f9f2ea;
+    -webkit-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s; }
+    .footer__section--socials .fab:hover {
+      color: #ed6e0c; }

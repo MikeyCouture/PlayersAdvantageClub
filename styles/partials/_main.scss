@@ -100,11 +100,18 @@
     }
 }
 
+// BOX OFFICE
+
 .main__section--boxOffice{
     text-align: center;
     margin: 50px auto;
     p{
         @include fontSize(12);
+
+        a{
+            text-decoration: none;
+            color: $mainBlue;
+        }
     }
 }
 
@@ -116,15 +123,6 @@
     border-right-color: transparent;
     position: relative;
 };
-
-// .diagonalTwo{
-//     border-width: 90px 100vw 0px 0px;
-//     border-top-color: $lightGrey;
-//     border-style: solid;
-//     border-right-color: transparent;
-//     border-left-color: transparent;
-//     position: relative;
-// };
 
 .diagonalTwo{
     border-width: 0 100vw 90px 0;
